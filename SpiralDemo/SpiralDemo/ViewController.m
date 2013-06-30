@@ -79,7 +79,7 @@
                                           thetaStep:self.thetaStepSlider.value].CGPath;
     
     self.startRadiusLabel.text = [NSString stringWithFormat:@"%f pt", self.startRadiusSlider.value];
-    self.spacePerLoopLabel.text = [NSString stringWithFormat:@"%f radians", self.spacePerLoopSlider.value];
+    self.spacePerLoopLabel.text = [NSString stringWithFormat:@"%f", self.spacePerLoopSlider.value];
     self.startThetaLabel.text = [NSString stringWithFormat:@"%f radians", self.startThetaSlider.value];
     self.endThetaLabel.text = [NSString stringWithFormat:@"%f radians", self.endThetaSlider.value];
     self.thetaStepLabel.text = [NSString stringWithFormat:@"%f radians", self.thetaStepSlider.value];
