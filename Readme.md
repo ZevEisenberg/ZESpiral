@@ -20,7 +20,7 @@ Includes a demo project with sliders to change the following parameters:
 ####Theta Step (radians)
 * How often to add a bezier control point. Lower values result in a more accurate but more complex path.
 
-### Licensed under the MIT License:
+### Released Under the MIT License:
 
 Copyright © 2013 Zev Eisenberg
 
