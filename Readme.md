@@ -1,7 +1,24 @@
 # ZESpiral
 Use this class to generate arithmetic ("Archimedes") spirals. It uses Bézier curve approximation to create a UIBezierPath of the form r = a + bθ.
 
-Includes a demo project with sliders to change ### parameters.
+ZESpiral requires iOS 5.1, and is designed to be used with ARC.
+
+Includes a demo project with sliders to change the following parameters:
+
+####Start Radius (UIKit points)
+* How far from the center point to start the spiral. Use this parameter to make a hole in the center of your spiral.
+
+####Space Per Loop
+* How much the spiral grows over each rotation. 
+
+####Start Theta (radians)
+* The angle of the initial point in the center.
+
+####End Theta (radians)
+* How far around to go before stopping.
+
+####Theta Step (radians)
+* How often to add a bezier control point. Lower values result in a more accurate but more complex path.
 
 ### Licensed under the MIT License:
 
