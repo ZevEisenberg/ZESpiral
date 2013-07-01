@@ -13,14 +13,14 @@
 		7A0104641780D0DE004E88B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A0104621780D0DE004E88B2 /* InfoPlist.strings */; };
 		7A0104661780D0DE004E88B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0104651780D0DE004E88B2 /* main.m */; };
 		7A01046A1780D0DE004E88B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0104691780D0DE004E88B2 /* AppDelegate.m */; };
-		7A01046C1780D0DE004E88B2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A01046B1780D0DE004E88B2 /* Default.png */; };
-		7A01046E1780D0DE004E88B2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A01046D1780D0DE004E88B2 /* Default@2x.png */; };
-		7A0104701780D0DE004E88B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A01046F1780D0DE004E88B2 /* Default-568h@2x.png */; };
 		7A0104731780D0DE004E88B2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0104711780D0DE004E88B2 /* MainStoryboard.storyboard */; };
 		7A0104791780D0DE004E88B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0104781780D0DE004E88B2 /* ViewController.m */; };
 		7A0104811780D0EE004E88B2 /* ZESpiral.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0104801780D0EE004E88B2 /* ZESpiral.m */; };
 		7A0104831780D12A004E88B2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0104821780D12A004E88B2 /* QuartzCore.framework */; };
 		7A0A144F1780EF2E00FC79AA /* ZEFraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A144E1780EF2E00FC79AA /* ZEFraction.m */; };
+		7A5055D717810FA500E615E2 /* icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5055D617810FA500E615E2 /* icon-iPad.png */; };
+		7A5055D917810FB200E615E2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5055D817810FB200E615E2 /* Icon.png */; };
+		7A5055DF178110D800E615E2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5055DE178110D800E615E2 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +34,6 @@
 		7A0104671780D0DE004E88B2 /* SpiralDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpiralDemo-Prefix.pch"; sourceTree = "<group>"; };
 		7A0104681780D0DE004E88B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A0104691780D0DE004E88B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7A01046B1780D0DE004E88B2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		7A01046D1780D0DE004E88B2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		7A01046F1780D0DE004E88B2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7A0104721780D0DE004E88B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		7A0104771780D0DE004E88B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7A0104781780D0DE004E88B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -45,6 +42,9 @@
 		7A0104821780D12A004E88B2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7A0A144D1780EF2E00FC79AA /* ZEFraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZEFraction.h; sourceTree = "<group>"; };
 		7A0A144E1780EF2E00FC79AA /* ZEFraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZEFraction.m; sourceTree = "<group>"; };
+		7A5055D617810FA500E615E2 /* icon-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iPad.png"; sourceTree = "<group>"; };
+		7A5055D817810FB200E615E2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7A5055DE178110D800E615E2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +65,8 @@
 		7A01044D1780D0DD004E88B2 = {
 			isa = PBXGroup;
 			children = (
+				7A5055D817810FB200E615E2 /* Icon.png */,
+				7A5055D617810FA500E615E2 /* icon-iPad.png */,
 				7A01045F1780D0DE004E88B2 /* SpiralDemo */,
 				7A0104581780D0DE004E88B2 /* Frameworks */,
 				7A0104571780D0DE004E88B2 /* Products */,
@@ -114,9 +116,7 @@
 				7A0104621780D0DE004E88B2 /* InfoPlist.strings */,
 				7A0104651780D0DE004E88B2 /* main.m */,
 				7A0104671780D0DE004E88B2 /* SpiralDemo-Prefix.pch */,
-				7A01046B1780D0DE004E88B2 /* Default.png */,
-				7A01046D1780D0DE004E88B2 /* Default@2x.png */,
-				7A01046F1780D0DE004E88B2 /* Default-568h@2x.png */,
+				7A5055DE178110D800E615E2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -173,10 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A0104641780D0DE004E88B2 /* InfoPlist.strings in Resources */,
-				7A01046C1780D0DE004E88B2 /* Default.png in Resources */,
-				7A01046E1780D0DE004E88B2 /* Default@2x.png in Resources */,
-				7A0104701780D0DE004E88B2 /* Default-568h@2x.png in Resources */,
 				7A0104731780D0DE004E88B2 /* MainStoryboard.storyboard in Resources */,
+				7A5055D717810FA500E615E2 /* icon-iPad.png in Resources */,
+				7A5055D917810FB200E615E2 /* Icon.png in Resources */,
+				7A5055DF178110D800E615E2 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
