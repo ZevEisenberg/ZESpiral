@@ -92,14 +92,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="20" minValue="0.0" maxValue="300" id="0z5-X0-FYE">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="300" id="0z5-X0-FYE">
                                 <rect key="frame" x="119" y="63" width="342" height="23"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <action selector="sliderChanged:" destination="2" eventType="valueChanged" id="MSj-LQ-6Hw"/>
                                 </connections>
                             </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1.5" minValue="0.0" maxValue="20" id="V4X-1n-FQg">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.5" maxValue="8" id="V4X-1n-FQg">
                                 <rect key="frame" x="148" y="118" width="314" height="23"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
@@ -113,14 +113,14 @@
                                     <action selector="sliderChanged:" destination="2" eventType="valueChanged" id="eHJ-ee-ydx"/>
                                 </connections>
                             </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="251.32741229000001" minValue="0.0" maxValue="1000" id="pHs-aV-kxa">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="80" minValue="0.0" maxValue="150" id="pHs-aV-kxa">
                                 <rect key="frame" x="105" y="228" width="357" height="23"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <action selector="sliderChanged:" destination="2" eventType="valueChanged" id="9Co-yg-dz6"/>
                                 </connections>
                             </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.098174770420000002" minValue="0.001" maxValue="1.5707963268" id="wUc-bd-Qo8">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.1963495408" maxValue="1.5707963268" id="wUc-bd-Qo8">
                                 <rect key="frame" x="111" y="283" width="351" height="23"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>

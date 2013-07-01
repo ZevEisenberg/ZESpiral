@@ -18,7 +18,9 @@ Includes a demo project with sliders to change the following parameters:
 * How far around to go before stopping.
 
 ####Theta Step (radians)
-* How often to add a bezier control point. Lower values result in a more accurate but more complex path.
+* How often to add a bezier control point. Lower values result in a more accurate but more complex paths, which may be expensive to draw depending on what you are doing.
+
+Some of these parameters will give you interesting results if you pass in negative numbers.
 
 ### Released Under the MIT License:
 

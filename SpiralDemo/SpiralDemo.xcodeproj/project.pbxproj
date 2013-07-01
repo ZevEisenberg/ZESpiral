@@ -20,6 +20,7 @@
 		7A0104791780D0DE004E88B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0104781780D0DE004E88B2 /* ViewController.m */; };
 		7A0104811780D0EE004E88B2 /* ZESpiral.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0104801780D0EE004E88B2 /* ZESpiral.m */; };
 		7A0104831780D12A004E88B2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0104821780D12A004E88B2 /* QuartzCore.framework */; };
+		7A0A144F1780EF2E00FC79AA /* ZEFraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A144E1780EF2E00FC79AA /* ZEFraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		7A01047F1780D0EE004E88B2 /* ZESpiral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZESpiral.h; path = ../../ZESpiral.h; sourceTree = "<group>"; };
 		7A0104801780D0EE004E88B2 /* ZESpiral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZESpiral.m; path = ../../ZESpiral.m; sourceTree = "<group>"; };
 		7A0104821780D12A004E88B2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7A0A144D1780EF2E00FC79AA /* ZEFraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZEFraction.h; sourceTree = "<group>"; };
+		7A0A144E1780EF2E00FC79AA /* ZEFraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZEFraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,8 @@
 				7A0104711780D0DE004E88B2 /* MainStoryboard.storyboard */,
 				7A0104771780D0DE004E88B2 /* ViewController.h */,
 				7A0104781780D0DE004E88B2 /* ViewController.m */,
+				7A0A144D1780EF2E00FC79AA /* ZEFraction.h */,
+				7A0A144E1780EF2E00FC79AA /* ZEFraction.m */,
 				7A01047F1780D0EE004E88B2 /* ZESpiral.h */,
 				7A0104801780D0EE004E88B2 /* ZESpiral.m */,
 				7A0104601780D0DE004E88B2 /* Supporting Files */,
@@ -186,6 +191,7 @@
 				7A01046A1780D0DE004E88B2 /* AppDelegate.m in Sources */,
 				7A0104791780D0DE004E88B2 /* ViewController.m in Sources */,
 				7A0104811780D0EE004E88B2 /* ZESpiral.m in Sources */,
+				7A0A144F1780EF2E00FC79AA /* ZEFraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +318,7 @@
 				7A01047E1780D0DE004E88B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
