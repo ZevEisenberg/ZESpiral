@@ -3,6 +3,8 @@ Use this class to generate arithmetic (“Archimedes”) spirals. It uses Bézie
 
 ZESpiral requires iOS 5.1, and is designed to be used with ARC.
 
+<img src="screenshot.png" alt="screenshot" width="384" />
+
 Includes a demo project with sliders to change the following parameters:
 
 ####Start Radius (UIKit points)
