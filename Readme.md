@@ -1,7 +1,7 @@
 # ZESpiral
 Use this class to generate arithmetic (“Archimedes”) spirals. It uses Bézier curve approximation to create a `UIBezierPath` of the form r = a + bθ.
 
-ZESpiral requires iOS 5.1, and is designed to be used with ARC.
+ZESpiral requires iOS 5.1 and ARC.
 
 <img src="screenshot.png" alt="screenshot" width="384" />
 
