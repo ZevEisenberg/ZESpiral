@@ -42,6 +42,10 @@
     return equal;
 }
 
+- (NSUInteger)hash
+{
+    return @(self.numerator).hash + @(self.denominator).hash;
+}
 
 - (NSString *)stringValue
 {
