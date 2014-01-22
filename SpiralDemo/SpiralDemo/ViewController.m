@@ -73,28 +73,45 @@
     [super viewDidUnload];
 }
 
-- (void)updateSpiral
+- (void)updateSpiralWithAnimationDuration:(NSTimeInterval)duration
 {
+    CABasicAnimation *animation;
+    if (duration != 0)
+    {
+        animation = [CABasicAnimation animationWithKeyPath:@"path"];
+        animation.duration = duration;
+        animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+    }
     self.spiralLayer.path = [ZESpiral spiralAtPoint:self.spiralView.center
                                         startRadius:self.startRadiusSlider.value
                                        spacePerLoop:self.spacePerLoopSlider.value
                                          startTheta:self.startThetaSlider.value
                                            endTheta:self.endThetaSlider.value
                                           thetaStep:self.thetaStepSlider.value].CGPath;
-    
+
+    if (duration != 0)
+    {
+        [self.spiralLayer addAnimation:animation forKey:nil];
+    }
+
     ZEFraction *startThetaFraction = [self closestPiFractionToReal:self.startThetaSlider.value];
     ZEFraction *endThetaFraction = [self closestPiFractionToReal:self.endThetaSlider.value];
     ZEFraction *thetaStepFraction = [self closestPiFractionToReal:self.thetaStepSlider.value];
-    
+
     NSString *startThetaString = startThetaFraction.numerator ? [startThetaFraction stringValueIgnoringUnitDenominator:YES] : @"0";
     NSString *endThetaString = endThetaFraction.numerator ? [endThetaFraction stringValueIgnoringUnitDenominator:YES] : @"0";
     NSString *thetaStepString = thetaStepFraction.numerator ? [thetaStepFraction stringValueIgnoringUnitDenominator:YES] : @"0";
-    
+
     self.startRadiusLabel.text = [NSString stringWithFormat:@"%f pt", self.startRadiusSlider.value];
     self.spacePerLoopLabel.text = [NSString stringWithFormat:@"%f", self.spacePerLoopSlider.value];
     self.startThetaLabel.text = [NSString stringWithFormat:@"%f ≈ %@ π radians", self.startThetaSlider.value, startThetaString];
     self.endThetaLabel.text = [NSString stringWithFormat:@"%f ≈ %@ π radians", self.endThetaSlider.value, endThetaString];
     self.thetaStepLabel.text = [NSString stringWithFormat:@"%f ≈ %@ π radians", self.thetaStepSlider.value, thetaStepString];
+}
+
+- (void)updateSpiral
+{
+    [self updateSpiralWithAnimationDuration:0];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
@@ -114,7 +131,7 @@
 
 - (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
 {
-    [self updateSpiral];
+    [self updateSpiralWithAnimationDuration:duration];
 }
 
 - (IBAction)sliderChanged:(id)sender
