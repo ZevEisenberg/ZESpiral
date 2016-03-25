@@ -24,6 +24,10 @@ Includes a demo project with sliders to change the following parameters:
 
 Some of these parameters will give you interesting results if you pass in negative numbers.
 
+### QT port
+
+There is also a [QT port](https://github.com/ZevEisenberg/ZESpiral/issues/1) of this code.
+
 ### Released Under the MIT License:
 
 Copyright © 2013 Zev Eisenberg
