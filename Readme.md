@@ -7,19 +7,19 @@ ZESpiral requires iOS 5.1 and ARC.
 
 Includes a demo project with sliders to change the following parameters:
 
-####Start Radius (UIKit points)
+#### Start Radius (UIKit points)
 * How far from the center point to start the spiral. Use this parameter to make a hole in the center of your spiral.
 
-####Space Per Loop
+#### Space Per Loop
 * A coefficient for how much the spiral grows over each rotation. 
 
-####Start Theta (radians)
+#### Start Theta (radians)
 * The angle of the initial point in the center.
 
-####End Theta (radians)
+#### End Theta (radians)
 * How far around to go before stopping.
 
-####Theta Step (radians)
+#### Theta Step (radians)
 * How often to add a bezier control point. Lower values result in a more accurate but more complex path, which may be expensive to draw depending on what you are doing.
 
 Some of these parameters will give you interesting results if you pass in negative numbers.
